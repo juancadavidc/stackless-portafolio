@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "landing-pages",
+      "label": "Landing Pages",
+      "description": "Páginas de aterrizaje de alto impacto que convierten visitantes en clientes",
+      "icon": "layout"
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-Commerce",
+      "description": "Tiendas online optimizadas para maximizar ventas y experiencia de usuario",
+      "icon": "shopping-cart"
+    },
+    {
+      "id": "automations",
+      "label": "Automatizaciones",
+      "description": "Flujos automatizados que eliminan tareas repetitivas y escalan operaciones",
+      "icon": "zap"
+    },
+    {
+      "id": "custom-software",
+      "label": "Software a la Medida",
+      "description": "Soluciones de software personalizadas para resolver problemas únicos de negocio",
+      "icon": "code"
+    }
+  ],
+  "cases": [
+    {
+      "id": "fintech-landing",
+      "title": "Landing de Captación para Fintech",
+      "client": "NovaPay",
+      "description": "Diseño y desarrollo de una landing page de alta conversión para una fintech enfocada en pagos digitales. Implementamos A/B testing, animaciones de scroll y formularios optimizados.",
+      "category": "landing-pages",
+      "image": "/cases/fintech-landing.jpg",
+      "tags": ["Next.js", "Framer Motion", "A/B Testing", "Analytics"],
+      "results": [
+        { "metric": "Tasa de conversión", "value": "+340%" },
+        { "metric": "Tiempo en página", "value": "+2.5 min" },
+        { "metric": "Leads mensuales", "value": "1,200+" }
+      ],
+      "testimonial": {
+        "quote": "Stackless transformó nuestra presencia digital. La landing page superó todas nuestras expectativas en conversión.",
+        "author": "María González",
+        "role": "CMO, NovaPay"
+      }
+    },
+    {
+      "id": "saas-launch",
+      "title": "Lanzamiento de Producto SaaS",
+      "client": "CloudMetrics",
+      "description": "Landing page para el lanzamiento de una plataforma SaaS de analytics. Incluye demo interactiva, pricing dinámico y sistema de waitlist.",
+      "category": "landing-pages",
+      "image": "/cases/saas-launch.jpg",
+      "tags": ["React", "TypeScript", "Stripe", "Waitlist"],
+      "results": [
+        { "metric": "Signups en lanzamiento", "value": "5,000+" },
+        { "metric": "Bounce rate", "value": "-60%" },
+        { "metric": "Tiempo al primer CTA", "value": "8 seg" }
+      ]
+    },
+    {
+      "id": "real-estate-landing",
+      "title": "Portal Inmobiliario Premium",
+      "client": "Habitat360",
+      "description": "Landing page inmersiva con tours virtuales 3D, filtros avanzados de búsqueda y sistema de agendamiento de visitas integrado.",
+      "category": "landing-pages",
+      "image": "/cases/real-estate.jpg",
+      "tags": ["Three.js", "Next.js", "Maps API", "Calendly"],
+      "results": [
+        { "metric": "Visitas agendadas", "value": "+280%" },
+        { "metric": "Interacción con tours", "value": "85%" },
+        { "metric": "Leads calificados", "value": "+190%" }
+      ]
+    },
+    {
+      "id": "fashion-ecommerce",
+      "title": "Tienda de Moda Online",
+      "client": "UrbanStyle",
+      "description": "E-commerce completo con catálogo inteligente, recomendaciones personalizadas por IA, pasarela de pagos multi-moneda y logística integrada.",
+      "category": "ecommerce",
+      "image": "/cases/fashion-ecommerce.jpg",
+      "tags": ["Next.js", "Stripe", "AI Recommendations", "Shopify"],
+      "results": [
+        { "metric": "Ventas online", "value": "+520%" },
+        { "metric": "Ticket promedio", "value": "+35%" },
+        { "metric": "Retención de clientes", "value": "78%" }
+      ],
+      "testimonial": {
+        "quote": "Pasamos de vender localmente a tener presencia en 5 países. La plataforma que Stackless construyó es robusta y escalable.",
+        "author": "Carlos Ramírez",
+        "role": "CEO, UrbanStyle"
+      }
+    },
+    {
+      "id": "marketplace-b2b",
+      "title": "Marketplace B2B Industrial",
+      "client": "InduConnect",
+      "description": "Plataforma de marketplace B2B para la industria manufacturera con sistema de cotizaciones, gestión de inventario en tiempo real y portal de proveedores.",
+      "category": "ecommerce",
+      "image": "/cases/marketplace-b2b.jpg",
+      "tags": ["React", "Node.js", "PostgreSQL", "Real-time"],
+      "results": [
+        { "metric": "Transacciones mensuales", "value": "$2.3M" },
+        { "metric": "Proveedores activos", "value": "450+" },
+        { "metric": "Tiempo de cotización", "value": "-75%" }
+      ]
+    },
+    {
+      "id": "food-delivery",
+      "title": "App de Delivery Gastronómico",
+      "client": "SaborExpress",
+      "description": "Plataforma de delivery con app móvil, panel de restaurantes, tracking en tiempo real y sistema de lealtad con puntos.",
+      "category": "ecommerce",
+      "image": "/cases/food-delivery.jpg",
+      "tags": ["React Native", "Node.js", "Redis", "Socket.io"],
+      "results": [
+        { "metric": "Órdenes diarias", "value": "3,500+" },
+        { "metric": "Restaurantes", "value": "200+" },
+        { "metric": "Rating en stores", "value": "4.8★" }
+      ]
+    },
+    {
+      "id": "crm-automation",
+      "title": "Automatización de CRM y Ventas",
+      "client": "SalesForward",
+      "description": "Sistema de automatización que conecta CRM, email marketing, WhatsApp Business y pipeline de ventas. Reducción drástica de tareas manuales del equipo comercial.",
+      "category": "automations",
+      "image": "/cases/crm-automation.jpg",
+      "tags": ["n8n", "HubSpot API", "WhatsApp API", "Zapier"],
+      "results": [
+        { "metric": "Horas ahorradas/mes", "value": "320+" },
+        { "metric": "Follow-ups automáticos", "value": "98%" },
+        { "metric": "Cierre de ventas", "value": "+45%" }
+      ],
+      "testimonial": {
+        "quote": "Nuestro equipo de ventas ahora se enfoca en cerrar deals, no en tareas administrativas. La automatización cambió nuestra operación.",
+        "author": "Andrea López",
+        "role": "VP Sales, SalesForward"
+      }
+    },
+    {
+      "id": "invoice-automation",
+      "title": "Facturación y Contabilidad Automatizada",
+      "client": "ContaFlex",
+      "description": "Pipeline automatizado de facturación electrónica, conciliación bancaria y reportes fiscales. Integración con SAP, bancos locales y DIAN.",
+      "category": "automations",
+      "image": "/cases/invoice-automation.jpg",
+      "tags": ["Python", "SAP API", "Banking APIs", "OCR"],
+      "results": [
+        { "metric": "Facturas procesadas/día", "value": "2,000+" },
+        { "metric": "Errores de conciliación", "value": "-95%" },
+        { "metric": "Tiempo de cierre contable", "value": "-70%" }
+      ]
+    },
+    {
+      "id": "social-media-bot",
+      "title": "Bot de Atención y Social Media",
+      "client": "TelcoPlus",
+      "description": "Chatbot con IA para atención al cliente multicanal (WhatsApp, Instagram, Web) con escalamiento inteligente a agentes humanos y analytics de sentimiento.",
+      "category": "automations",
+      "image": "/cases/social-bot.jpg",
+      "tags": ["OpenAI", "WhatsApp Cloud API", "Meta API", "NLP"],
+      "results": [
+        { "metric": "Tickets resueltos por bot", "value": "72%" },
+        { "metric": "Tiempo de respuesta", "value": "-85%" },
+        { "metric": "Satisfacción del cliente", "value": "4.6/5" }
+      ]
+    },
+    {
+      "id": "logistics-platform",
+      "title": "Plataforma de Gestión Logística",
+      "client": "CargoTrack",
+      "description": "Sistema integral de gestión logística con tracking GPS en tiempo real, optimización de rutas con IA, gestión de flotas y portal de clientes.",
+      "category": "custom-software",
+      "image": "/cases/logistics-platform.jpg",
+      "tags": ["React", "Python", "TensorFlow", "PostgreSQL", "Maps"],
+      "results": [
+        { "metric": "Costo de combustible", "value": "-30%" },
+        { "metric": "Entregas a tiempo", "value": "96%" },
+        { "metric": "Flota gestionada", "value": "500+ vehículos" }
+      ],
+      "testimonial": {
+        "quote": "La plataforma de Stackless nos permitió escalar operaciones sin aumentar costos. La optimización de rutas con IA fue un game-changer.",
+        "author": "Roberto Mendoza",
+        "role": "COO, CargoTrack"
+      }
+    },
+    {
+      "id": "health-platform",
+      "title": "Plataforma de Telemedicina",
+      "client": "MediConnect",
+      "description": "Sistema de telemedicina con videoconsultas, historial clínico digital, recetas electrónicas y sistema de agendamiento. Cumplimiento HIPAA y regulaciones locales.",
+      "category": "custom-software",
+      "image": "/cases/health-platform.jpg",
+      "tags": ["React", "WebRTC", "Node.js", "MongoDB", "HIPAA"],
+      "results": [
+        { "metric": "Consultas mensuales", "value": "15,000+" },
+        { "metric": "Médicos en plataforma", "value": "800+" },
+        { "metric": "Tiempo de espera", "value": "-65%" }
+      ]
+    },
+    {
+      "id": "erp-manufacturing",
+      "title": "ERP para Manufactura",
+      "client": "ProdMax",
+      "description": "Sistema ERP personalizado para planta de manufactura con módulos de producción, inventario, calidad, RRHH y business intelligence con dashboards en tiempo real.",
+      "category": "custom-software",
+      "image": "/cases/erp-manufacturing.jpg",
+      "tags": ["React", ".NET", "SQL Server", "Power BI", "IoT"],
+      "results": [
+        { "metric": "Eficiencia de producción", "value": "+40%" },
+        { "metric": "Reducción de desperdicios", "value": "-55%" },
+        { "metric": "ROI en 12 meses", "value": "320%" }
+      ]
+    }
+  ]
+}
